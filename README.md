@@ -77,8 +77,8 @@ The Tableau dashboard summarizes:
 - KPI: Average monthly charges
 - Visualizations by customer segments
 
-
-|-------------------------------------------------------|--------------------------------------------|
+| Landing Outcome Map (Folium)| Feature Importance|
+|--------------------|-----------------------|
 |![Dashboard Preview](tableau_screenshots/KPI_churn_rate.png)  | ![Churn Rate by Interent Type](tableau_screenshots/churn_by_internet_type.png) |
 |![Churn Rate by Gender](tableau_screenshots/churn_by_gender.png)  | ![Churn Rate by Contract Type](tableau_screenshots/churn_by_contract.png) 
 ![Monthly Charges](tableau_screenshots/monthly_charges.png)
