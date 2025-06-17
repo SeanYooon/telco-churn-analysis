@@ -28,12 +28,13 @@ This project aims to identify key drivers of customer churn in a telecom company
 │  
 ├── churn_analysis.ipynb       # Full notebook: cleaning, EDA, modeling  
 ├── cleaned_telco_churn.csv    # Final cleaned dataset for Tableau  
-├── /images/                   # Tableau screenshots for GitHub preview  
-│   ├── kpi_churn_rate.png  
-│   ├── kpi_monthly_charges.png  
-│   ├── churn_by_contract.png  
-│   ├── churn_by_internet_type.png  
-│   └── churn_by_gender.png  
+├── WA_Fn-UseC_-Telco-Customer-Churn (1).csv    # Initial data from Kaggle  
+├── /tableau_screenshots/                   # Tableau screenshots for GitHub preview  
+│   ├── KPI_churn_rate.png
+│   ├── churn_by_contract.png
+│   ├── churn_by_gender.png  
+│   ├── churn_by_internet_type.png
+│   └── monthly_charges.png
 └── README.md
 
 ---
@@ -76,7 +77,11 @@ The Tableau dashboard summarizes:
 - KPI: Average monthly charges
 - Visualizations by customer segments
 
-![Dashboard Preview](images/dashboard_overview.png)
+![Dashboard Preview](tableau_screenshots/KPI_churn_rate.png)
+![Churn Rate by Interent Type](tableau_screenshots/churn_by_internet_type.png)
+![Churn Rate by Gender](tableau_screenshots/churn_by_gender.png)
+![Churn Rate by Contract Type](tableau_screenshots/churn_by_contract.png)
+![Monthly Charges](tableau_screenshots/monthly_charges.png)
 
 ---
 
