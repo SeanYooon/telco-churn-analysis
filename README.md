@@ -22,22 +22,41 @@ This project aims to identify key drivers of customer churn in a telecom company
 - **GitHub** for version control and documentation
 
 ---
+## 🧱 Project Structure
+
+📁 Customer-Churn-Analysis/  
+│  
+├── churn_analysis.ipynb       # Full notebook: cleaning, EDA, modeling  
+├── cleaned_telco_churn.csv    # Final cleaned dataset for Tableau  
+├── /images/                   # Tableau screenshots for GitHub preview  
+│   ├── kpi_churn_rate.png  
+│   ├── kpi_monthly_charges.png  
+│   ├── churn_by_contract.png  
+│   ├── churn_by_internet_type.png  
+│   └── churn_by_gender.png  
+└── README.md
+
+---
 
 ## 🔍 OLAP-Style Exploration (Examples)
 
-	•	Churn Rate by Contract Type
-→ Compared churn rates across Month-to-month, One year, and Two year contracts.
-→ Found that short-term (Month-to-month) customers churned the most.
-	•	Churn by Internet Service
-→ Analyzed churn by service type: DSL, Fiber optic, or No internet.
-→ Fiber optic users had the highest churn rate.
-	•	Churn by Tenure Group
-→ Created tenure buckets: 0–12m, 13–24m, 25–48m, 49–72m.
-→ Longer-tenure customers churned significantly less.
-	•	Monthly Charges Bucket Analysis
-→ Grouped customers into pricing tiers: Low, Medium, High.
-→ Higher monthly charges correlated with higher churn.
----
+- **Churn Rate by Contract Type**  
+  → Compared churn rates across `Month-to-month`, `One year`, and `Two year` contracts.  
+  → Found that short-term (Month-to-month) customers churned the most.
+
+- **Churn by Internet Service**  
+  → Analyzed churn by service type: `DSL`, `Fiber optic`, or `No internet`.  
+  → Fiber optic users had the highest churn rate.
+
+- **Churn by Tenure Group**  
+  → Created tenure buckets: `0–12m`, `13–24m`, `25–48m`, `49–72m`.  
+  → Longer-tenure customers churned significantly less.
+
+- **Monthly Charges Bucket Analysis**  
+  → Grouped customers into pricing tiers: `Low`, `Medium`, `High`.  
+  → Higher monthly charges correlated with higher churn.
+
+  ---
 
 ## 🤖 Predictive Modeling
 
