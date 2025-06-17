@@ -25,15 +25,18 @@ This project aims to identify key drivers of customer churn in a telecom company
 
 ## 🔍 OLAP-Style Exploration (Examples)
 
-- Churn Rate by Contract Type:
-Compared churn rates across contract types (Month-to-month, One year, Two years), showing much higher churn among short-term users.
-- Churn by Internet Service:
-Analyzed churn rates for customers with DSL, Fiber optic, or No internet service, revealing fiber optic users are most likely to leave.
-- Churn by Tenure Groups:
-Grouped customers by tenure buckets (e.g., 0–12m, 13–24m, 25–48m, 49–72m) to identify how loyalty affects churn likelihood.
-- Monthly Charges Bucket Analysis:
-Created charge ranges (Low, Medium, High) from the MonthlyCharges column and explored how pricing tiers relate to churn behavior.
-
+	•	Churn Rate by Contract Type
+→ Compared churn rates across Month-to-month, One year, and Two year contracts.
+→ Found that short-term (Month-to-month) customers churned the most.
+	•	Churn by Internet Service
+→ Analyzed churn by service type: DSL, Fiber optic, or No internet.
+→ Fiber optic users had the highest churn rate.
+	•	Churn by Tenure Group
+→ Created tenure buckets: 0–12m, 13–24m, 25–48m, 49–72m.
+→ Longer-tenure customers churned significantly less.
+	•	Monthly Charges Bucket Analysis
+→ Grouped customers into pricing tiers: Low, Medium, High.
+→ Higher monthly charges correlated with higher churn.
 ---
 
 ## 🤖 Predictive Modeling
